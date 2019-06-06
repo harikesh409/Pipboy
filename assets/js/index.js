@@ -10,6 +10,22 @@ $(function () {
         {
             "name": "endurance",
             "description": "Endurance is a measure of your overall physical fitness. It affects your total Health and the Action Point drain from sprinting."
+        },
+        {
+            "name": "charisma",
+            "description": "Charisma is your ability to charm and convince others. It affects your success to persuade in dialogue and prices when you barter."
+        },
+        {
+            "name": "intelligence",
+            "description": "Intelligence is a measure of your overall mental acuity, and affects the number of Experience Points earned."
+        },
+        {
+            "name": "agility",
+            "description": "Agility is a measure of your overall finesse and reflexes. It affeccts the number of Action Points in V. A. T. S. and your ability to sneak."
+        },
+        {
+            "name": "luck",
+            "description": "Luck is a measure of your general good fortune, and affects the recharge rate of Critical Hits."
         }
     ];
     let perks = [{

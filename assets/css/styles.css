@@ -343,6 +343,7 @@ ul.navbar-nav>li {
 
 .items .row .col-12 {
     background: rgba(16, 255, 0, 0.15);
+    margin-bottom: 2px;
 }
 
 .icon>img {
