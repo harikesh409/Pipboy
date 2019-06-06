@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Pipboy - Inventory</title>
+</head>
+
+<body>
+    <div class="scan"></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main" aria-controls="main"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+            <ul class="navbar-nav nav-fill text-center">
+                <li class="navbar-item">
+                    <a href="index.html" class="nav-link">STAT</a>
+                </li>
+                <li class="navbar-item active">
+                    <a href="inv.html" class="nav-link">INV</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">DATA</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">MAP</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">RADIO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+
+                <!-- Tabspanel -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#weapons" role="tab" data-toggle="tab"
+                            aria-selected="true">WEAPONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#armor" role="tab" data-toggle="tab" aria-selected="false">ARMOR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aid" role="tab" data-toggle="tab" aria-selected="false">AID</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active full" id="weapons" role="tabpanel">
+                        <ul class="item-list">
+                            <li><a href="#" class="44_pistol">.44 Pistol</a></li>
+                            <li><a href="#" class="10mm_pistol">10mm Pistol</a></li>
+                            <li><a href="#" class="assault_rifle">Assault Rifle</a></li>
+                        </ul>
+                        <div class="items">
+                            <div class="row-highlight"></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="armor" role="tabpanel">
+                        Special
+                    </div>
+                    <div class="tab-pane fade" id="aid" role="tabpanel">
+                        Perks
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <nav class="navbar navbar-light pip-footer">
+        <div class="col-3">
+            <div class="icon d-inline-block">
+                <img src="assets/images/lock.png" alt="Lock" class="img-fluid" style="height:30px">
+            </div>
+            <span style="position: relative;top: 3px;">126/220</span>
+        </div>
+        <div class="col-6">
+            <span>LEVEL 1</span>
+            <div class="level-progress">
+                <div class="level-progress-indicator"></div>
+            </div>
+        </div>
+        <div class="col-3 text-right">
+            AP 70/70
+        </div>
+    </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/inv.js"></script>
+</body>
+
+</html>
