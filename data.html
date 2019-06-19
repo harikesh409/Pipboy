@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Pipboy - Data</title>
+</head>
+
+<body>
+    <div class="scan"></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main" aria-controls="main"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav nav-fill text-center">
+            <li class="navbar-item">
+                <a href="index.html" class="nav-link">STAT</a>
+            </li>
+            <li class="navbar-item">
+                <a href="inv.html" class="nav-link">INV</a>
+            </li>
+            <li class="navbar-item active">
+                <a href="data.html" class="nav-link">DATA</a>
+            </li>
+            <li class="navbar-item">
+                <a href="map.html" class="nav-link">MAP</a>
+            </li>
+            <li class="navbar-item">
+                <a href="radio.html" class="nav-link">RADIO</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+
+
+            <!-- Tabspanel -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#quests" role="tab" data-toggle="tab"
+                    aria-selected="true">QUESTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#workshops" role="tab" data-toggle="tab" aria-selected="false">WORKSHOPS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#stats" role="tab" data-toggle="tab" aria-selected="false">STATS</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active full" id="quests" role="tabpanel">
+                    <ul class="item-list item-quests">
+                        <li><a href="#" class="out">Out of Time</a></li>
+                        <li><a href="#" class="rumor">Rumor of a Vault</a></li>
+                        <li><a href="#" class="rude">A Rude Awakening</a></li>
+                        <li><a href="#" class="misc">Miscellaneous</a></li>
+                    </ul>
+                    <div class="items">
+                        <div class="row-highlight">
+                            <div class="row">
+                                <div class="col-12">
+                                    Investigate Control
+                                </div>
+                            </div>
+                             <div class="row">
+                                <div class="col-12">
+                                    Search the Neighborhood with Codsworth
+                                </div>
+                            </div>
+                             <div class="row">
+                                <div class="col-12">
+                                    Talk to Codsworth
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="workshops" role="tabpanel">
+                    <ul class="item-list item-workshops">
+                        <li><a href="#" class="crossing">Country Crossing</a></li>
+                        <li><a href="#" class="graygarden">Graygarden</a></li>
+                        <li><a href="#" class="outpost">Outpost Zimonja</a></li>
+                        <li><a href="#" class="sanctuary">Sanctuary Hills</a></li>
+                    </ul>
+                    <div class="items">
+                        <div class="row-highlight">
+                            <div class="row">
+                                <div class="col-12">
+                                    People
+                                    <span class="float-right">8</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    Food
+                                    <span class="float-right">18</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    Water
+                                    <span class="float-right">15</span>
+                                </div>                                
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    Power
+                                    <span class="float-right">13</span>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="stats" role="tabpanel">
+                    <ul class="item-list item-stats">
+                        <li><a href="#" class="general">General</a></li>
+                        <li><a href="#" class="quest">Quest</a></li>
+                        <li><a href="#" class="combat">Combat</a></li>
+                        <li><a href="#" class="crafting">Crafting</a></li>
+                        <li><a href="#" class="crime">Crime</a></li>
+                    </ul>
+                    <div class="items">
+                        <div class="row-highlight"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<nav class="navbar navbar-light pip-footer">
+    <div class="col-3">
+        <span style="position: relative;top: 3px;">10.24.2287</span>
+    </div>
+    <div class="col-3">
+        <span class="time">10:10</span>
+    </div>
+    <div class="col-6 text-right">
+        &nbsp;
+    </div>
+</nav>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/data.js"></script>
+</body>
+
+</html>
