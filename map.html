@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .map {
+            width: 100%;
+            height: 550px;
+        }
+    </style>
+    <title>Pipboy - Map</title>
+</head>
+
+<body>
+    <div class="scan"></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main" aria-controls="main"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav nav-fill text-center">
+            <li class="navbar-item">
+                <a href="index.html" class="nav-link">STAT</a>
+            </li>
+            <li class="navbar-item">
+                <a href="inv.html" class="nav-link">INV</a>
+            </li>
+            <li class="navbar-item">
+                <a href="data.html" class="nav-link">DATA</a>
+            </li>
+            <li class="navbar-item active">
+                <a href="map.html" class="nav-link">MAP</a>
+            </li>
+            <li class="navbar-item">
+                <a href="radio.html" class="nav-link">RADIO</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container m-3">
+    <img src="assets/images/map.webp" alt="" class="img-fluid map">
+</div>
+
+<!-- Footer -->
+<nav class="navbar navbar-light pip-footer">
+    <div class="col-3">
+        <span style="position: relative;top: 3px;">10.24.2287</span>
+    </div>
+    <div class="col-3">
+        <span class="time">10:10</span>
+    </div>
+    <div class="col-6 text-right">
+        LOCAL MAP
+    </div>
+</nav>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    let date = new Date();
+    $(".time").html(date.toLocaleTimeString());
+</script>
+</body>
+
+</html>
