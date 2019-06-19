@@ -163,14 +163,6 @@ ul.navbar-nav>li {
     opacity: 1;
 }
 
-/* .nav.nav-tabs>li:nth-child(2)>a {
-    opacity: 0.5;
-}
-
-.nav.nav-tabs>li:nth-child(3)>a {
-    opacity: 0.2;
-} */
-
 .nav.nav-tabs>.nav-item>.nav-link:hover {
     border: 1px solid transparent;
 }
@@ -290,7 +282,10 @@ ul.navbar-nav>li {
 
 #weapons.tab-pane.full,
 #special.tab-pane,
-#perks.tab-pane {
+#perks.tab-pane,
+#junk.tab-pane,
+#ammo.tab-pane,
+#stats.tab-pane {
     width: 100%;
     max-width: 100%;
     height: calc(100vh - 180px);
@@ -348,4 +343,14 @@ ul.navbar-nav>li {
 
 .icon>img {
     filter: grayscale(1) invert(2) brightness(200) contrast(0) sepia(100%) hue-rotate(55deg) saturate(20);
+}
+
+.filter {
+    filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(8);
+}
+
+.items img {
+    position: relative;
+    bottom: 50px;
+    height: 300px;
 }
