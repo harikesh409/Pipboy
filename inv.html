@@ -17,99 +17,113 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main" aria-controls="main"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="main">
-            <ul class="navbar-nav nav-fill text-center">
-                <li class="navbar-item">
-                    <a href="index.html" class="nav-link">STAT</a>
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav nav-fill text-center">
+            <li class="navbar-item">
+                <a href="index.html" class="nav-link">STAT</a>
+            </li>
+            <li class="navbar-item active">
+                <a href="inv.html" class="nav-link">INV</a>
+            </li>
+            <li class="navbar-item">
+                <a href="data.html" class="nav-link">DATA</a>
+            </li>
+            <li class="navbar-item">
+                <a href="map.html" class="nav-link">MAP</a>
+            </li>
+            <li class="navbar-item">
+                <a href="radio.html" class="nav-link">RADIO</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+
+
+            <!-- Tabspanel -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#weapons" role="tab" data-toggle="tab"
+                    aria-selected="true">WEAPONS</a>
                 </li>
-                <li class="navbar-item active">
-                    <a href="inv.html" class="nav-link">INV</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#junk" role="tab" data-toggle="tab" aria-selected="false">JUNK</a>
                 </li>
-                <li class="navbar-item">
-                    <a href="#" class="nav-link">DATA</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#" class="nav-link">MAP</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#" class="nav-link">RADIO</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ammo" role="tab" data-toggle="tab" aria-selected="false">AMMO</a>
                 </li>
             </ul>
-        </div>
-    </nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-
-
-                <!-- Tabspanel -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#weapons" role="tab" data-toggle="tab"
-                            aria-selected="true">WEAPONS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#armor" role="tab" data-toggle="tab" aria-selected="false">ARMOR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#aid" role="tab" data-toggle="tab" aria-selected="false">AID</a>
-                    </li>
-                </ul>
-                <div class="tab-content">
-                    <div class="tab-pane fade show active full" id="weapons" role="tabpanel">
-                        <ul class="item-list">
-                            <li><a href="#" class="44_pistol">.44 Pistol</a></li>
-                            <li><a href="#" class="10mm_pistol">10mm Pistol</a></li>
-                            <li><a href="#" class="assault_rifle">Assault Rifle</a></li>
-                        </ul>
-                        <div class="items">
-                            <div class="row-highlight"></div>
-                        </div>
+            <div class="tab-content">
+                <div class="tab-pane fade show active full" id="weapons" role="tabpanel">
+                    <ul class="item-list item-weapons">
+                        <li><a href="#" class="44_pistol">.44 Pistol</a></li>
+                        <li><a href="#" class="10mm_pistol">10mm Pistol</a></li>
+                        <li><a href="#" class="assault_rifle">Assault Rifle</a></li>
+                    </ul>
+                    <div class="items">
+                        <div class="row-highlight"></div>
                     </div>
-                    <div class="tab-pane fade" id="armor" role="tabpanel">
-                        Special
+                </div>
+                <div class="tab-pane fade" id="junk" role="tabpanel">
+                    <ul class="item-list item-junk">
+                        <li><a href="#" class="baseball">Baseball</a></li>
+                        <li><a href="#" class="desk_fan">Desk Fan</a></li>
+                        <li><a href="#" class="ladle">Ladle</a></li>
+                    </ul>
+                    <div class="items">
+                        <div class="row-highlight"></div>
                     </div>
-                    <div class="tab-pane fade" id="aid" role="tabpanel">
-                        Perks
+                </div>
+                <div class="tab-pane fade" id="ammo" role="tabpanel">
+                    <ul class="item-list item-ammo">
+                        <li><a href="#" class="5.56">5.56 Round (125)</a></li>
+                        <li><a href="#" class="5mm">5mm Round (486)</a></li>
+                        <li><a href="#" class="shotgun">Shotgun Shell (26)</a></li>
+                    </ul>
+                    <div class="items">
+                        <div class="row-highlight"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Footer -->
-    <nav class="navbar navbar-light pip-footer">
-        <div class="col-3">
-            <div class="icon d-inline-block">
-                <img src="assets/images/lock.png" alt="Lock" class="img-fluid" style="height:30px">
-            </div>
-            <span style="position: relative;top: 3px;">126/220</span>
+</div>
+<!-- Footer -->
+<nav class="navbar navbar-light pip-footer">
+    <div class="col-3">
+        <div class="icon d-inline-block">
+            <img src="assets/images/lock.png" alt="Lock" class="img-fluid" style="height:30px">
         </div>
-        <div class="col-3">
-            <div class="icon d-inline-block">
-                <img src="assets/images/C.png" alt="C" class="img-fluid" style="height: 30px">
-            </div>
-            <span>576</span>
+        <span style="position: relative;top: 3px;">126/220</span>
+    </div>
+    <div class="col-3">
+        <div class="icon d-inline-block">
+            <img src="assets/images/C.png" alt="C" class="img-fluid" style="height: 30px">
         </div>
-        <div class="col-6 text-right">
-            <div class="icon d-inline-block">
-                <img src="assets/images/gun.png" alt="gun" class="img-fluid" style="height: 30px">
-                <img src="assets/images/crosshair.png" alt="Crosshair" class="img-fluid" style="height: 30px">
-            </div>
-            18
+        <span>576</span>
+    </div>
+    <div class="col-6 text-right">
+        <div class="icon d-inline-block">
+            <img src="assets/images/gun.png" alt="gun" class="img-fluid" style="height: 30px">
+            <img src="assets/images/crosshair.png" alt="Crosshair" class="img-fluid" style="height: 30px">
         </div>
-    </nav>
+        18
+    </div>
+</nav>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/inv.js"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/inv.js"></script>
 </body>
 
 </html>
